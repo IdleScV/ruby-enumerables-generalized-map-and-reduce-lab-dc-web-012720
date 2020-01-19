@@ -6,6 +6,8 @@ def map(arr, block)
     block
     n = arr[block]
     
+    
+    
     count += 1
   end
   return ans
