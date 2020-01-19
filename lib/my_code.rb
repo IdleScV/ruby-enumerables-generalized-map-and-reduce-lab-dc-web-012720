@@ -8,3 +8,8 @@ def map(arr)
   end
   return ans
 end
+
+def reduce(arr, block=nil)
+  ans=0
+  count = 0
+  
