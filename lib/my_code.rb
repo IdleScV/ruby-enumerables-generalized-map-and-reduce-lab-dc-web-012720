@@ -16,3 +16,5 @@ def reduce(arr, block=nil)
     ans = block
     count += 1
   end
+  while count < arr.length 
+    
