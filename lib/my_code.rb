@@ -17,7 +17,7 @@ def reduce(arr, block=nil)
     count = 0
   else
     ans = arr[0]
-    count += 1
+    count = 1
   end
   
   while count < arr.length 
