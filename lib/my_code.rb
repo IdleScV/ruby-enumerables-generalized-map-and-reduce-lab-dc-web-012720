@@ -17,4 +17,4 @@ def reduce(arr, block=nil)
     count += 1
   end
   while count < arr.length 
-    ans = 
+    ans = yield(arr[block])
