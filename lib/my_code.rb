@@ -15,6 +15,8 @@ def reduce(arr, block=nil)
   
   if block != nil
     ans = block
+    
+  else
     count += 1
   end
   
