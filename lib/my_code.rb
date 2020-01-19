@@ -4,7 +4,7 @@ def map(arr, block)
   count = 0
   while count < arr.length; 
     n = arr[block]
-    n do |x|
+    n do 
       block
     end
     
