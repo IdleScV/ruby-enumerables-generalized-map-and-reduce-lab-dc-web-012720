@@ -6,7 +6,7 @@ def map(arr, block)
     ans.push(
       
       arr[count]
-      
+      block
       )
     count += 1
   end
