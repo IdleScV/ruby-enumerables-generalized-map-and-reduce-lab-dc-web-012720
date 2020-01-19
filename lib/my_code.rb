@@ -1,5 +1,5 @@
 # Your Code Here
-def map(arr, block)
+def map(arr)
   ans = []
   count = 0
   while count < arr.length
