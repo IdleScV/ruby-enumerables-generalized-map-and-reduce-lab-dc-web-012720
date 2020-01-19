@@ -10,13 +10,13 @@ def map(arr)
 end
 
 def reduce(arr, block=nil)
-  ans=0
-  count = 0
+
   
   if block != nil
     ans = block
-    
+    count = 0
   else
+    ans = arr[0]
     count += 1
   end
   
