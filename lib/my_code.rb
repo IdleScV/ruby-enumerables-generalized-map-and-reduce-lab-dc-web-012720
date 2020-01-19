@@ -3,11 +3,9 @@ def map(arr, block)
   ans = []
   count = 0
   while count < arr.length; 
-    ans.push(
-      
-      arr[count]
-      block
-      )
+    block
+    n = arr[block]
+    
     count += 1
   end
   return ans
